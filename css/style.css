@@ -1,0 +1,483 @@
+header {
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+header {
+  height: 90vh;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+nav {
+  min-height: 60px;
+}
+
+.divbt {
+  height: 200px;
+}
+
+ul li:hover {
+  background: orange;
+}
+
+ul li.active {
+  background: orange;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: rgb(11, 148, 102) !important;
+}
+
+.end {
+  align-items: flex-end;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dss {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.card-body2 {
+  height: 100%;
+  display: flex;
+}
+
+.end1 h3,
+i {
+  color: aliceblue;
+}
+
+.end0 {
+  align-items: flex-end;
+}
+
+.card-body {
+  text-align: center;
+  height: 30vh !important;
+}
+
+.card h5 {
+  color: #ff6138;
+}
+
+.card i {
+  color: aquamarine;
+}
+
+.brgref1 {
+  background-color: #ff6138;
+}
+
+.backg {
+  background: url(../images/process-bg.jpg);
+}
+
+.backg i {
+  color: #52a57f;
+}
+
+.imagesgrob {
+  text-align: center;
+  margin: auto;
+}
+
+.GRDER {
+  background-color: #f7751a;
+  color: white;
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.frem {
+  height: 50vh;
+
+
+}
+
+.mab {
+  margin: auto;
+  text-align: center;
+  background-color: #f7751a;
+  /* height: 260px; */
+  color: white;
+  width: 50%;
+}
+
+
+
+
+
+aside img {
+  width: 100px;
+  border-radius: 50px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.adventures-con {
+  min-height: 100vh;
+  background-color: rgb(216, 216, 216);
+  padding: 0;
+  margin: 0;
+}
+
+.randol {
+  background: url(../images/portpic1.jpg);
+  overflow: hidden;
+  background-position: center;
+}
+
+.nav-2 {
+  width: 100%;
+  height: 100%;
+  background: rgb(171 74 17 / 54%);
+  clip-path: circle(0% at 0% 0%);
+}
+
+.randol:hover .nav-2 {
+  clip-path: circle(100% at 0% 0%);
+}
+
+.rando2 {
+  background: url(../images/portpic2.jpg);
+  overflow: hidden;
+  background-position: center;
+}
+
+.rando2:hover .nav-2 {
+  clip-path: circle(100% at 0% 0%);
+}
+
+.rando3 {
+  background: url(../images/portpic3.jpg);
+  overflow: hidden;
+  background-position: center;
+}
+
+.rando3:hover .nav-2 {
+  clip-path: circle(100% at 0% 0%);
+}
+
+.rando4 {
+  background: url(../images/portpic4.jpg);
+  overflow: hidden;
+  background-position: center;
+}
+
+.rando4:hover .nav-2 {
+  clip-path: circle(100% at 0% 0%);
+}
+
+.adventures {
+  min-height: 50vh;
+}
+
+.flip {
+  perspective: 600px;
+}
+
+.adv-1 {
+  position: relative;
+  height: 40vh;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+.front-1 {
+  position: absolute;
+  left: 0;
+  height: 40vh;
+  background-image: url(../images/b1.jpg);
+  background-size: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.adv-1:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.adv-1:hover .front-1 {
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+}
+
+.back-1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 30vh;
+  text-align: center;
+  transform: translate(-50%) rotateY(-180deg);
+  -webkit-transform: translate(-50%) rotateY(-180deg);
+  -moz-transform: translate(-50%) rotateY(-180deg);
+  -ms-transform: translate(-50%) rotateY(-180deg);
+  -o-transform: translate(-50%) rotateY(-180deg);
+}
+
+h3 {
+  text-align: center;
+  /* font-family: "Comforter Brush", cursive; */
+  font-size: 40px;
+}
+
+p {
+  width: 100%;
+  /* height: 50vh; */
+  margin: auto;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.adv-2 {
+  position: relative;
+  height: 40vh;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+.front-2 {
+  position: absolute;
+  left: 0;
+  height: 40vh;
+  background-image: url(../images/b2.jpg);
+  background-size: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.adv-2:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.adv-2:hover .front-2 {
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+}
+
+.back-2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 30vh;
+  text-align: center;
+  transform: translate(-50%) rotateY(-180deg);
+  -webkit-transform: translate(-50%) rotateY(-180deg);
+  -moz-transform: translate(-50%) rotateY(-180deg);
+  -ms-transform: translate(-50%) rotateY(-180deg);
+  -o-transform: translate(-50%) rotateY(-180deg);
+}
+
+.adv-3 {
+  position: relative;
+  height: 40vh;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+.front-3 {
+  position: absolute;
+  left: 0;
+  height: 40vh;
+  background-image: url(../images/b3.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.adv-3:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.adv-3:hover .front-3 {
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+}
+
+.back-3 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 30vh;
+  text-align: center;
+  transform: translate(-50%) rotateY(-180deg);
+  -webkit-transform: translate(-50%) rotateY(-180deg);
+  -moz-transform: translate(-50%) rotateY(-180deg);
+  -ms-transform: translate(-50%) rotateY(-180deg);
+  -o-transform: translate(-50%) rotateY(-180deg);
+}
+
+.adv-41 {
+  position: relative;
+  height: 40vh;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+.front-41 {
+  position: absolute;
+  left: 0;
+  height: 40vh;
+  background-image: url(../images/b4.jpg);
+  background-size: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.adv-41:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+.adv-41:hover .front-41 {
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+}
+
+.back-41 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  height: 30vh;
+  text-align: center;
+  transform: translate(-50%) rotateY(-180deg);
+  -webkit-transform: translate(-50%) rotateY(-180deg);
+  -moz-transform: translate(-50%) rotateY(-180deg);
+  -ms-transform: translate(-50%) rotateY(-180deg);
+  -o-transform: translate(-50%) rotateY(-180deg);
+}
+
+.adventures-types {
+  min-height: 60vh;
+  background-color: rgb(212, 212, 212);
+  background-image: url(../images/b1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 20vh;
+}
+
+.adventures-types h1 {
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  font-family: 'Comforter Brush', cursive;
+  font-family: nav;
+  font-size: 60px;
+  color: rgb(54, 54, 54);
+}
+
+.boot-icons {
+  min-height: 40vh;
+}
+
+.icons {
+  font-size: 40px;
+  color: rgb(49, 49, 49);
+  text-align: center;
+}
+
+.potfolio {
+  width: 90%;
+  margin: auto;
+}
+
+.potfolio .images:hover {
+  background: #52a5802c;
+}
+
+section {
+  min-height: 500px;
+}
+
+.d1 {
+  height: 200px;
+}
